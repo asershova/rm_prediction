@@ -1,0 +1,1228 @@
+#Post-RPSBLAST Processing Utility
+#Input data file:	gold_standard.cdd.table.asn
+#Output data file:	gold_standard.cdd.table.asn.out.doms.std.hsdr
+#Annotation data at:	/home/anna/distrib/blast/ncbi-blast-2.10.1+-src/c++/ReleaseMT/bin/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+SESSION	2	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_32	Peptide	222	AbrI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	2	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_39	Peptide	366	AccI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	3	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_64	Peptide	278	AgeI
+DOMAINS
+3	Query_64	Specific	376069	136	240	3.69627e-16	72.4645	pfam18643	RE_BsaWI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	4	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_85	Peptide	473	Alw26I
+DOMAINS
+4	Query_85	Specific	132031	9	422	0	614.129	TIGR02986	restrict_Alw26I	-	388592
+ENDDOMAINS
+ENDQUERY
+SESSION	6	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_107	Peptide	324	AplI
+DOMAINS
+6	Query_107	Specific	377679	160	318	3.24293e-68	209.807	pfam06616	BsuBI_PstI_RE	-	45
+6	Query_107	Specific	379998	11	149	5.35311e-58	183.204	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	6	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_109	Peptide	317	AquI
+DOMAINS
+6	Query_109	Specific	370354	6	316	0	516.2	pfam09194	Endonuc-BsobI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	8	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_160	Peptide	315	AvaI
+DOMAINS
+8	Query_160	Specific	370354	3	315	0	595.936	pfam09194	Endonuc-BsobI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	8	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_161	Peptide	230	AvaII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	9	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_194	Peptide	213	BamFI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	9	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_195	Peptide	213	BamHI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	9
+SESSION	10	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	10	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_203	Peptide	372	BanLI
+DOMAINS
+10	Query_203	Specific	377008	36	158	5.67844e-17	77.5833	pfam03235	DUF262	-	390120
+10	Query_203	Specific	238038	314	370	5.2905e-11	57.4815	cd00085	HNHc	-	381794
+10	Query_203	Specific	366837	327	370	2.32814e-08	49.5625	pfam01844	HNH	-	381794
+10	Query_203	Specific	214702	317	367	7.83653e-06	42.4448	smart00507	HNHc	-	381794
+10	Query_203	Specific	224321	313	372	0.000211142	41.0888	COG1403	McrA	NC	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	10	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_214	Peptide	695	BbrUII
+DOMAINS
+10	Query_214	Specific	214643	28	131	3.7845e-08	51.8807	smart00387	HATPase_c	-	381791
+ENDDOMAINS
+ENDQUERY
+SESSION	10	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_215	Peptide	315	BbrUIII
+DOMAINS
+10	Query_215	Specific	377679	155	306	6.7372e-69	211.348	pfam06616	BsuBI_PstI_RE	-	45
+10	Query_215	Specific	379998	5	146	5.61047e-59	185.515	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	10
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_219	Peptide	282	R1.BbrUI
+DOMAINS
+11	Query_219	Specific	379157	174	226	3.28516e-11	57.7642	pfam13391	HNH_2	-	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_220	Peptide	539	BbvI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_221	Peptide	275	BbvCIA
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_222	Peptide	285	BbvCIB
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_229	Peptide	337	Bce14579IA
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	11	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_230	Peptide	444	Bce14579IB
+DOMAINS
+11	Query_230	Specific	370562	51	412	0	544.867	pfam09563	RE_LlaJI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	12	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_254	Peptide	264	BceSII
+DOMAINS
+12	Query_254	Specific	370545	6	246	4.97312e-74	225.619	pfam09520	RE_TdeIII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	12	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_255	Peptide	591	BceSIII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	12	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_256	Peptide	382	BceSIV
+DOMAINS
+12	Query_256	Specific	370563	25	318	2.98816e-124	360.215	pfam09565	RE_NgoFVII	-	387583
+12	Query_256	Specific	197274	20	162	5.13075e-83	249.218	cd09177	PLDc_RE_NgoFVII	-	387583
+ENDDOMAINS
+ENDQUERY
+SESSION	13	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_275	Peptide	238	BcnI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	13	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_281	Peptide	205	BfaIA
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	13	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_282	Peptide	196	BfaIB
+DOMAINS
+13	Query_282	Specific	370566	27	189	1.45601e-70	211.373	pfam09568	RE_MjaI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	14	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_287	Peptide	358	BfiI
+DOMAINS
+14	Query_287	Specific	375670	193	356	1.039e-118	339.967	pfam18243	BfiI_DBD	-	45
+14	Query_287	Specific	197384	199	355	1.43032e-105	306.392	cd10018	BfiI_C	-	387584
+ENDDOMAINS
+ENDQUERY
+SESSION	14	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_293	Peptide	299	BglI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	14	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_294	Peptide	223	BglII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	14	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_301	Peptide	317	BhaII
+DOMAINS
+14	Query_301	Specific	370558	8	307	0	551.159	pfam09556	RE_HaeIII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_352	Peptide	294	Bpu10IA
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_353	Peptide	288	Bpu10IB
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_358	Peptide	462	BpuJI
+DOMAINS
+17	Query_358	Specific	379021	313	422	6.78169e-14	66.8962	pfam13020	DUF3883	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_362	Peptide	260	BsaAI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_363	Peptide	370	BsaHI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_365	Peptide	307	BsaJI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	17	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_367	Peptide	293	Bse634I
+DOMAINS
+17	Query_367	Specific	369546	8	293	1.25489e-158	443.176	pfam07832	Bse634I	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	18	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_381	Peptide	465	BsmAI
+DOMAINS
+18	Query_381	Specific	132031	9	417	0	629.152	TIGR02986	restrict_Alw26I	-	388592
+ENDDOMAINS
+ENDQUERY
+SESSION	18	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_382	Peptide	530	BsmBI
+DOMAINS
+18	Query_382	Specific	132031	12	437	0	700.414	TIGR02986	restrict_Alw26I	-	388592
+ENDDOMAINS
+ENDQUERY
+SESSION	19	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_397	Peptide	174	Bsp6I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	19	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_398	Peptide	199	Bsp98I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	20	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_429	Peptide	293	BsrFI
+DOMAINS
+20	Query_429	Specific	369546	8	293	2.54958e-162	452.42	pfam07832	Bse634I	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_448	Peptide	224	BstVI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_450	Peptide	383	BstXI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_455	Peptide	203	BstYI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_456	Peptide	318	BstZ1II
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	22	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_464	Peptide	316	BsuBI
+DOMAINS
+22	Query_464	Specific	377679	156	308	4.0036e-88	260.268	pfam06616	BsuBI_PstI_RE	-	45
+22	Query_464	Specific	379998	7	145	2.0564e-66	204.39	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	22	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_468	Peptide	343	BsuMIB
+DOMAINS
+22	Query_468	Specific	224319	1	343	1.33088e-60	204.278	COG1401	McrB	C	45
+ENDDOMAINS
+ENDQUERY
+SESSION	22	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_469	Peptide	465	BsuMIC
+DOMAINS
+22	Query_469	Specific	370562	48	412	0	536.007	pfam09563	RE_LlaJI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	25	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_530	Peptide	237	Cac824I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	26	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_545	Peptide	326	CbeI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	27	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_567	Peptide	399	CceI
+DOMAINS
+27	Query_567	Specific	370364	140	395	7.5462e-129	371.096	pfam09208	Endonuc-MspI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	27	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_568	Peptide	490	Cce743I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	27	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_569	Peptide	857	Cce743II
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	27	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_572	Peptide	197	CchI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	29	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_605	Peptide	285	Cfr10I
+DOMAINS
+29	Query_605	Specific	369546	1	285	7.60987e-137	387.707	pfam07832	Bse634I	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	29	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_611	Peptide	216	Cfr42I
+DOMAINS
+29	Query_611	Specific	198400	7	161	7.54329e-111	313.965	cd10453	GIY-YIG_RE_Cfr42I	-	387588
+29	Query_611	Specific	370543	38	197	2.14776e-85	249.549	pfam09517	RE_Eco29kI	-	387588
+ENDDOMAINS
+ENDQUERY
+SESSION	29	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_613	Peptide	330	Cfr9I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	29	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_615	Peptide	355	CfrBI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	29	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_624	Peptide	358	CglI
+DOMAINS
+29	Query_624	Specific	370563	25	306	1.56507e-96	288.568	pfam09565	RE_NgoFVII	-	387583
+29	Query_624	Specific	197274	20	159	7.27585e-68	209.927	cd09177	PLDc_RE_NgoFVII	-	387583
+ENDDOMAINS
+ENDQUERY
+SESSION	33	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_700	Peptide	257	CphBI
+DOMAINS
+33	Query_700	Specific	375181	15	252	5.72824e-171	470.823	pfam17411	SmaI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	34	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_723	Peptide	313	Csp231I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	34	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_727	Peptide	233	Csp68KI
+DOMAINS
+34	Query_727	Specific	312916	8	224	5.36957e-159	438.723	pfam09570	RE_SinI	-	45
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	34
+SESSION	35	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	37	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_788	Peptide	201	DdsI
+DOMAINS
+37	Query_788	Specific	280991	3	162	5.36072e-93	268.217	pfam02923	BamHI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	37	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_797	Peptide	288	DpnII
+DOMAINS
+37	Query_797	Specific	377384	7	286	5.71263e-126	359.93	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	38	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_814	Peptide	570	EacI
+DOMAINS
+38	Query_814	Specific	312855	72	515	7.24018e-118	356.088	pfam09491	RE_AlwI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	38	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_818	Peptide	315	EaeI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	38	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_821	Peptide	301	EagI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	39	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_839	Peptide	305	Ecl18kI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	40	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_862	Peptide	307	EcoVIII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	41	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_880	Peptide	365	Eco128I
+DOMAINS
+41	Query_880	Specific	370368	17	161	1.69518e-77	235.069	pfam09217	EcoRII-N	-	387584
+41	Query_880	Specific	197382	16	163	4.09949e-72	221.094	cd10016	EcoRII_N	-	387584
+ENDDOMAINS
+ENDQUERY
+SESSION	42	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_903	Peptide	214	Eco29kI
+DOMAINS
+42	Query_903	Specific	198399	6	209	1.45545e-149	413.4	cd10452	GIY-YIG_RE_Eco29kI_NgoMIII	-	387588
+42	Query_903	Specific	370543	42	206	1.3626e-90	262.646	pfam09517	RE_Eco29kI	-	387588
+ENDDOMAINS
+ENDQUERY
+SESSION	42	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_908	Peptide	579	Eco31I
+DOMAINS
+42	Query_908	Specific	132031	39	476	0	697.332	TIGR02986	restrict_Alw26I	-	388592
+42	Query_908	Specific	370607	44	498	0	534.82	pfam09665	RE_Alw26IDE	-	388592
+ENDDOMAINS
+ENDQUERY
+SESSION	44	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_944	Peptide	239	Eco47II
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	48	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1012	Peptide	317	EcoGIII
+DOMAINS
+48	Query_1012	Specific	377679	155	307	1.72882e-90	266.431	pfam06616	BsuBI_PstI_RE	-	45
+48	Query_1012	Specific	379998	8	143	1.26098e-62	194.76	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	48	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1026	Peptide	318	EcoHK31I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	51	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1084	Peptide	277	EcoRI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	51	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1085	Peptide	245	EcoRV
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	52	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1103	Peptide	351	EcoT38I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	53	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1134	Peptide	307	Esp1396I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	53	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1136	Peptide	533	Esp3I
+DOMAINS
+53	Query_1136	Specific	132031	14	436	0	705.807	TIGR02986	restrict_Alw26I	-	388592
+ENDDOMAINS
+ENDQUERY
+SESSION	54	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1155	Peptide	169	Fnu4HI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	54	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1156	Peptide	284	FnuDI
+DOMAINS
+54	Query_1156	Specific	378195	6	266	4.61549e-137	387.106	pfam09521	RE_NgoPII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	54	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1158	Peptide	583	FokI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	55	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1168	Peptide	219	FseI
+DOMAINS
+55	Query_1168	Specific	366837	112	158	1.99011e-08	48.7921	pfam01844	HNH	-	381794
+55	Query_1168	Specific	238038	104	158	2.4677e-07	45.9256	cd00085	HNHc	-	381794
+55	Query_1168	Specific	224321	54	158	5.49205e-07	47.252	COG1403	McrA	C	381794
+55	Query_1168	Specific	214702	104	155	6.28405e-05	39.3633	smart00507	HNHc	-	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	55	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1170	Peptide	376	Fsp4HI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	55	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1174	Peptide	234	FssI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	56	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1194	Peptide	352	HaeII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	56	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1195	Peptide	318	HaeIII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	57	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1209	Peptide	274	HgiBI
+DOMAINS
+57	Query_1209	Specific	370545	16	257	8.98337e-65	202.507	pfam09520	RE_TdeIII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	57	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1212	Peptide	273	HgiCII
+DOMAINS
+57	Query_1212	Specific	370545	8	258	3.75067e-63	198.269	pfam09520	RE_TdeIII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	57	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1215	Peptide	359	HgiDI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	57	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1216	Peptide	611	HgiDII
+DOMAINS
+57	Query_1216	Specific	214643	33	103	0.00297392	37.6283	smart00387	HATPase_c	C	381791
+ENDDOMAINS
+ENDQUERY
+SESSION	57	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1219	Peptide	274	HgiEI
+DOMAINS
+57	Query_1219	Specific	370545	16	257	3.00466e-67	208.67	pfam09520	RE_TdeIII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	58	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1230	Peptide	258	HincII
+DOMAINS
+58	Query_1230	Specific	312659	11	257	5.01892e-175	481.366	pfam09226	Endonuc-HincII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	58	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1232	Peptide	258	HindII
+DOMAINS
+58	Query_1232	Specific	312659	11	257	5.98712e-174	478.67	pfam09226	Endonuc-HincII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	58	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1233	Peptide	300	HindIII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	58	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1242	Peptide	247	HinP1I
+DOMAINS
+58	Query_1242	Specific	314398	41	245	8.57678e-125	352.234	pfam11463	R-HINP1I	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	58	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1253	Peptide	379	HphI
+DOMAINS
+58	Query_1253	Specific	379157	277	328	2.49834e-08	50.0603	pfam13391	HNH_2	-	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	59	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1258	Peptide	170	Hpy188I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	59	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1267	Peptide	260	Hpy51I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	60	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1285	Peptide	190	Hpy99I
+DOMAINS
+60	Query_1285	Specific	367266	99	187	2.18105e-28	101.027	pfam02945	Endonuclease_7	-	391725
+60	Query_1285	Specific	375702	55	106	3.25635e-28	99.9153	pfam18275	His_Me_b4a2	-	45
+60	Query_1285	Specific	375777	2	54	2.1207e-25	92.5189	pfam18350	SH3_17	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	60	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1286	Peptide	260	Hpy99II
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	60	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1287	Peptide	250	Hpy99III
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	60	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1288	Peptide	290	Hpy99IV
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	61	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1318	Peptide	277	HpyAIII
+DOMAINS
+61	Query_1318	Specific	377384	7	271	1.10502e-108	315.632	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	62	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1342	Peptide	538	HpyC1I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	64	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1379	Peptide	247	HsoI
+DOMAINS
+64	Query_1379	Specific	314398	41	245	8.46954e-141	393.065	pfam11463	R-HINP1I	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	67	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1434	Peptide	305	Kpn2kI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	70	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1508	Peptide	337	LlaIB
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	70	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1509	Peptide	464	LlaIC
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	71	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1524	Peptide	332	LlaCI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	71	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1526	Peptide	180	LlaDII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	71	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1528	Peptide	304	LlaDCHI
+DOMAINS
+71	Query_1528	Specific	377384	16	298	2.32621e-96	285.202	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	72	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1536	Peptide	585	R1.LlaJI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	72	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1537	Peptide	414	R2.LlaJI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	72	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1538	Peptide	496	LlaKR2I
+DOMAINS
+72	Query_1538	Specific	238326	31	247	2.68269e-80	248.787	cd00583	MutH_Sau3AI	-	382053
+72	Query_1538	Specific	376975	76	179	1.57916e-30	114.12	pfam02976	MutH	-	382053
+ENDDOMAINS
+ENDQUERY
+SESSION	72	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1540	Peptide	271	LlaMI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	74	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1579	Peptide	532	Lsp1109I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	75	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1604	Peptide	308	MamI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	76	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1623	Peptide	525	McaCI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	78	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1658	Peptide	222	MjaI
+DOMAINS
+78	Query_1658	Specific	370566	39	209	7.30722e-79	233.33	pfam09568	RE_MjaI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	78	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1659	Peptide	370	MjaII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	78	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1660	Peptide	290	MjaIII
+DOMAINS
+78	Query_1660	Specific	377384	3	286	4.65282e-121	347.604	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	79	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1683	Peptide	386	MnlI
+DOMAINS
+79	Query_1683	Specific	366837	305	341	2.92316e-06	43.7845	pfam01844	HNH	-	381794
+79	Query_1683	Specific	238038	285	338	0.000223941	38.6068	cd00085	HNHc	N	381794
+79	Query_1683	Specific	214702	285	338	0.000861464	37.0521	smart00507	HNHc	N	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	80	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1706	Peptide	262	MspI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	81	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1733	Peptide	281	MthTI
+DOMAINS
+81	Query_1733	Specific	378195	2	262	8.78145e-118	338.186	pfam09521	RE_NgoPII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	81	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1736	Peptide	202	MthZI
+DOMAINS
+81	Query_1736	Specific	370566	31	190	3.27576e-73	218.307	pfam09568	RE_MjaI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	83	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1787	Peptide	202	MunI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	84	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1789	Peptide	246	MvaI
+DOMAINS
+84	Query_1789	Specific	373913	19	236	3.18127e-59	186.71	pfam15515	MvaI_BcnI	-	390149
+ENDDOMAINS
+ENDQUERY
+SESSION	84	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1798	Peptide	317	NaeI
+DOMAINS
+84	Query_1798	Specific	378126	16	306	1.74914e-134	382.907	pfam09126	NaeI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	84	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1805	Peptide	260	NciI
+DOMAINS
+84	Query_1805	Specific	373913	10	251	9.7314e-61	191.332	pfam15515	MvaI_BcnI	-	390149
+ENDDOMAINS
+ENDQUERY
+SESSION	85	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1825	Peptide	350	NgoAI
+DOMAINS
+85	Query_1825	Specific	370557	8	343	0	610.362	pfam09554	RE_HaeII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	85	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1826	Peptide	213	NgoAIII
+DOMAINS
+85	Query_1826	Specific	198399	5	208	2.89563e-153	422.645	cd10452	GIY-YIG_RE_Eco29kI_NgoMIII	-	387588
+85	Query_1826	Specific	370543	41	204	2.97937e-103	294.618	pfam09517	RE_Eco29kI	-	387588
+ENDDOMAINS
+ENDQUERY
+SESSION	85	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1827	Peptide	286	NgoAIV
+DOMAINS
+85	Query_1827	Specific	370246	12	286	0	518.97	pfam09015	NgoMIV_restric	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1830	Peptide	345	NgoAVII
+DOMAINS
+86	Query_1830	Specific	370563	23	302	6.32485e-117	340.185	pfam09565	RE_NgoFVII	-	387583
+86	Query_1830	Specific	197274	18	161	4.11681e-70	215.32	cd09177	PLDc_RE_NgoFVII	-	387583
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1840	Peptide	350	NgoBI
+DOMAINS
+86	Query_1840	Specific	370557	8	343	0	607.665	pfam09554	RE_HaeII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1841	Peptide	175	NgoBV
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1842	Peptide	374	NgoBVIII
+DOMAINS
+86	Query_1842	Specific	379157	270	321	3.11591e-08	49.6751	pfam13391	HNH_2	-	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1845	Peptide	326	NgoFVII
+DOMAINS
+86	Query_1845	Specific	370563	23	302	6.87566e-113	329.014	pfam09565	RE_NgoFVII	-	387583
+86	Query_1845	Specific	197274	18	161	4.33087e-70	214.55	cd09177	PLDc_RE_NgoFVII	-	387583
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1850	Peptide	213	NgoMIII
+DOMAINS
+86	Query_1850	Specific	198399	5	208	2.89563e-153	422.645	cd10452	GIY-YIG_RE_Eco29kI_NgoMIII	-	387588
+86	Query_1850	Specific	370543	41	204	2.97937e-103	294.618	pfam09517	RE_Eco29kI	-	387588
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1851	Peptide	286	NgoMIV
+DOMAINS
+86	Query_1851	Specific	370246	12	286	0	520.125	pfam09015	NgoMIV_restric	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1852	Peptide	374	NgoMVIII
+DOMAINS
+86	Query_1852	Specific	379157	270	321	3.11591e-08	49.6751	pfam13391	HNH_2	-	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1854	Peptide	278	NgoPII
+DOMAINS
+86	Query_1854	Specific	378195	2	260	1.37664e-127	362.838	pfam09521	RE_NgoPII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	87	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1863	Peptide	243	NlaIV
+DOMAINS
+87	Query_1863	Specific	286628	3	240	1.55584e-178	489.519	pfam09564	RE_NgoBV	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	87	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1876	Peptide	199	NmeSI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	88	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1882	Peptide	237	NsoJS138I
+DOMAINS
+88	Query_1882	Specific	238045	12	69	1.26179e-09	52.5554	cd00093	HTH_XRE	-	389948
+88	Query_1882	Specific	197775	14	69	2.34323e-09	51.7498	smart00530	HTH_XRE	-	389948
+88	Query_1882	Specific	376540	15	69	2.64695e-08	48.6782	pfam01381	HTH_3	-	389948
+ENDDOMAINS
+ENDQUERY
+SESSION	88	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1885	Peptide	244	NspI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	88	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1890	Peptide	244	NspHI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	89	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1909	Peptide	226	PabI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	89	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1918	Peptide	333	Pac25I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	90	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1934	Peptide	246	PaeR7I
+DOMAINS
+90	Query_1934	Specific	309617	29	220	7.95633e-131	367.139	pfam04555	XhoI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	92	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1981	Peptide	332	PflMI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	97	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2063	Peptide	331	PluTI
+DOMAINS
+97	Query_2063	Specific	374468	18	319	0	524.515	pfam16280	DUF4928	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	100	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2142	Peptide	272	PspGI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	105	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2234	Peptide	277	RsrI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	105	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2241	Peptide	315	SalI
+DOMAINS
+105	Query_2241	Specific	312917	53	303	1.37329e-110	321.011	pfam09572	RE_XamI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	106	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2256	Peptide	489	Sau3AI
+DOMAINS
+106	Query_2256	Specific	238326	1	217	3.09549e-79	245.706	cd00583	MutH_Sau3AI	-	382053
+106	Query_2256	Specific	376975	46	150	1.2407e-25	100.253	pfam02976	MutH	-	382053
+106	Query_2256	Specific	214917	51	150	7.76474e-24	95.3618	smart00927	MutH	-	382053
+ENDDOMAINS
+ENDQUERY
+SESSION	107	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2270	Peptide	261	Sau96I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	108	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2304	Peptide	187	SbaI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	109	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2319	Peptide	323	SbfI
+DOMAINS
+109	Query_2319	Specific	377679	161	314	6.64043e-69	211.733	pfam06616	BsuBI_PstI_RE	-	45
+109	Query_2319	Specific	379998	14	149	2.82806e-43	145.454	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	110	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2355	Peptide	227	ScaI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	110
+SESSION	111	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	112	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2376	Peptide	271	ScrFI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	112	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2378	Peptide	323	SdaI
+DOMAINS
+112	Query_2378	Specific	377679	161	314	3.69973e-67	207.11	pfam06616	BsuBI_PstI_RE	-	45
+112	Query_2378	Specific	379998	14	145	4.68375e-43	145.069	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	126	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2666	Peptide	549	SenCer87DptF
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	127	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2688	Peptide	214	SenpCI
+DOMAINS
+127	Query_2688	Specific	198399	6	209	1.15768e-148	411.089	cd10452	GIY-YIG_RE_Eco29kI_NgoMIII	-	387588
+127	Query_2688	Specific	370543	42	206	2.96539e-90	261.876	pfam09517	RE_Eco29kI	-	387588
+ENDDOMAINS
+ENDQUERY
+SESSION	128	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2720	Peptide	648	SfaNI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	129	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2726	Peptide	269	SfiI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	130	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2765	Peptide	397	Sgr13350I
+DOMAINS
+130	Query_2765	Specific	370564	13	308	2.0639e-98	293.985	pfam09566	RE_SacI	-	45
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	130
+SESSION	131	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	131	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2767	Peptide	345	SgrAI
+DOMAINS
+131	Query_2767	Specific	369546	54	338	5.14474e-132	378.077	pfam07832	Bse634I	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	131	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2772	Peptide	230	SinI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	131	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2783	Peptide	247	SmaI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	133	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2833	Peptide	336	SmoLI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	133
+SESSION	134	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	135	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2862	Peptide	235	SphI
+DOMAINS
+135	Query_2862	Specific	238038	108	160	3.23879e-05	40.5328	cd00085	HNHc	-	381794
+ENDDOMAINS
+ENDQUERY
+SESSION	137	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2914	Peptide	178	Sse9I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	138	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2922	Peptide	277	SsoI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	138	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2923	Peptide	305	SsoII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2970	Peptide	308	R1.Ssu11318I
+DOMAINS
+140	Query_2970	Specific	377384	6	301	1.26458e-108	316.788	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2971	Peptide	301	R2.Ssu11318I
+DOMAINS
+140	Query_2971	Specific	377384	16	298	4.7162e-101	297.143	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2973	Peptide	205	Ssu211I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2975	Peptide	204	Ssu212I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2976	Peptide	207	Ssu220I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2979	Peptide	308	R1.Ssu2479I
+DOMAINS
+140	Query_2979	Specific	377384	6	301	1.26458e-108	316.788	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2980	Peptide	301	R2.Ssu2479I
+DOMAINS
+140	Query_2980	Specific	377384	16	298	4.7162e-101	297.143	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2983	Peptide	308	R1.Ssu4109I
+DOMAINS
+140	Query_2983	Specific	377384	6	301	2.90101e-107	313.321	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	140	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2984	Peptide	301	R2.Ssu4109I
+DOMAINS
+140	Query_2984	Specific	377384	16	296	1.567e-101	298.298	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2987	Peptide	308	R1.Ssu4961I
+DOMAINS
+141	Query_2987	Specific	377384	6	301	1.26458e-108	316.788	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2988	Peptide	301	R2.Ssu4961I
+DOMAINS
+141	Query_2988	Specific	377384	16	298	4.7162e-101	297.143	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2991	Peptide	308	R1.Ssu8074I
+DOMAINS
+141	Query_2991	Specific	377384	6	301	1.26458e-108	316.788	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2992	Peptide	301	R2.Ssu8074I
+DOMAINS
+141	Query_2992	Specific	377384	16	298	4.7162e-101	297.143	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2995	Peptide	308	R1.SsuDAT1I
+DOMAINS
+141	Query_2995	Specific	377384	6	301	1.26458e-108	316.788	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2996	Peptide	301	R2.SsuDAT1I
+DOMAINS
+141	Query_2996	Specific	377384	16	298	4.7162e-101	297.143	pfam04556	DpnII	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	141	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3004	Peptide	491	Sth368I
+DOMAINS
+141	Query_3004	Specific	238326	11	231	6.1244e-65	208.726	cd00583	MutH_Sau3AI	-	382053
+ENDDOMAINS
+ENDQUERY
+SESSION	142	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3013	Peptide	602	StsI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	142	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3014	Peptide	355	StyI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	142	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3019	Peptide	318	StyD4I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	145	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3084	Peptide	266	TfiTok6A1I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	145	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3085	Peptide	250	TflI
+DOMAINS
+145	Query_3085	Specific	370568	10	239	1.84318e-119	339.828	pfam09573	RE_TaqI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	145	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3092	Peptide	216	ThaI
+DOMAINS
+145	Query_3092	Specific	292152	14	215	1.28614e-144	401.196	pfam15514	ThaI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	146	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3112	Peptide	263	Tsp32I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	146	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3114	Peptide	332	Tsp45I
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	146	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3121	Peptide	1112	TspDTI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	146
+SESSION	147	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+SESSION	147	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3128	Peptide	521	TspRI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	148	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3141	Peptide	263	TthHB8I
+DOMAINS
+148	Query_3141	Specific	370568	10	239	7.94381e-121	343.68	pfam09573	RE_TaqI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	148	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3144	Peptide	405	UbaLAI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	151	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3205	Peptide	274	XamI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	151	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3209	Peptide	209	XbaI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	151	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3215	Peptide	333	XcyI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	151	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3218	Peptide	246	XhoI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	152	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3223	Peptide	374	XmnI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	152	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3234	Peptide	364	XorKII
+DOMAINS
+152	Query_3234	Specific	377679	187	348	7.11024e-60	189.776	pfam06616	BsuBI_PstI_RE	-	45
+152	Query_3234	Specific	379998	12	176	1.92449e-31	115.794	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	152	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3236	Peptide	364	XphI
+DOMAINS
+152	Query_3236	Specific	377679	187	348	1.82604e-61	194.014	pfam06616	BsuBI_PstI_RE	-	45
+152	Query_3236	Specific	379998	12	176	1.3369e-30	113.483	pfam17728	BsuBI_PstI_RE_N	-	45
+ENDDOMAINS
+ENDQUERY

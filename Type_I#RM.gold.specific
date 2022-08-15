@@ -1,0 +1,42 @@
+#Post-RPSBLAST Processing Utility
+#Input data file:	gold_standard.cdd.table.asn
+#Output data file:	gold_standard.cdd.table.asn.out.doms.std.hsdr
+#Annotation data at:	/home/anna/distrib/blast/ncbi-blast-2.10.1+-src/c++/ReleaseMT/bin/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+SESSION	71	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1522	Peptide	1577	LlaBIII
+DOMAINS
+71	Query_1522	Specific	227226	11	1570	0	2287.06	COG4889	COG4889	-	45
+71	Query_1522	Specific	380119	1220	1552	5.56579e-102	329.979	pfam18135	Type_ISP_C	-	45
+71	Query_1522	Specific	350684	177	376	1.98703e-34	129.348	cd17926	DEXHc_RE	-	391939
+71	Query_1522	Specific	214692	172	407	7.14678e-11	63.2798	smart00487	DEXDc	-	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	71	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1533	Peptide	1570	LlaGI
+DOMAINS
+71	Query_1533	Specific	227226	12	1563	0	2060.56	COG4889	COG4889	-	45
+71	Query_1533	Specific	380119	1216	1545	1.07769e-116	370.81	pfam18135	Type_ISP_C	-	45
+71	Query_1533	Specific	350684	178	377	1.97772e-34	129.348	cd17926	DEXHc_RE	-	391939
+71	Query_1533	Specific	214692	173	408	8.67741e-11	62.8946	smart00487	DEXDc	-	391939
+ENDDOMAINS
+ENDQUERY
+ENDSESSION	71
+SESSION	72	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01

@@ -1,0 +1,160 @@
+#Post-RPSBLAST Processing Utility
+#Input data file:	gold_standard.cdd.table.asn
+#Output data file:	gold_standard.cdd.table.asn.out.doms.std.hsdr
+#Annotation data at:	/home/anna/distrib/blast/ncbi-blast-2.10.1+-src/c++/ReleaseMT/bin/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+SESSION	12	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_244	Peptide	1010	BceJI
+DOMAINS
+12	Query_244	Non-specific	226115	1	978	0	617.958	COG3587	COG3587	-	45
+12	Query_244	Non-specific	237972	97	957	3.77278e-90	309.659	PRK15483	PRK15483	-	45
+12	Query_244	Specific	214692	89	225	5.83145e-08	54.035	smart00487	DEXDc	C	391939
+12	Query_244	Non-specific	368155	97	225	6.36476e-08	53.0586	pfam04851	ResIII	-	391939
+12	Query_244	Non-specific	350186	507	567	0.000132801	42.1612	cd18799	SF2_C_EcoAI-like	N	365791
+ENDDOMAINS
+ENDQUERY
+SESSION	12	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_253	Peptide	987	BceSI
+DOMAINS
+12	Query_253	Specific	237972	1	987	0	1493.38	PRK15483	PRK15483	-	45
+12	Query_253	Non-specific	226115	1	987	0	784.365	COG3587	COG3587	-	45
+12	Query_253	Specific	368155	4	232	3.11237e-16	76.9409	pfam04851	ResIII	-	391939
+12	Query_253	Specific	214959	879	975	2.00686e-07	50.2004	smart00990	VRR_NUC	-	389988
+ENDDOMAINS
+ENDQUERY
+SESSION	24	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_510	Peptide	994	Btr192II
+DOMAINS
+24	Query_510	Non-specific	226115	1	978	0	700.776	COG3587	COG3587	-	45
+24	Query_510	Non-specific	237972	1	979	3.3824e-119	388.625	PRK15483	PRK15483	-	45
+24	Query_510	Specific	368155	93	249	1.46935e-12	66.5405	pfam04851	ResIII	-	391939
+24	Query_510	Specific	214692	93	249	9.6176e-07	50.5682	smart00487	DEXDc	-	391939
+24	Query_510	Non-specific	350186	470	565	0.00172784	39.0796	cd18799	SF2_C_EcoAI-like	-	365791
+ENDDOMAINS
+ENDQUERY
+SESSION	48	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1013	Peptide	871	EcoGVIII
+DOMAINS
+48	Query_1013	Non-specific	223989	127	402	1.79814e-13	73.2426	COG1061	SSL2	N	45
+48	Query_1013	Non-specific	350186	253	371	8.11158e-11	59.8804	cd18799	SF2_C_EcoAI-like	-	365791
+48	Query_1013	Non-specific	226115	300	831	1.31003e-09	62.1153	COG3587	COG3587	N	45
+48	Query_1013	Non-specific	237972	320	432	1.82629e-08	58.1235	PRK15483	PRK15483	NC	45
+48	Query_1013	Non-specific	368155	2	169	2.05662e-08	54.2142	pfam04851	ResIII	N	391939
+48	Query_1013	Non-specific	273028	122	258	0.00718668	39.6916	TIGR00348	hsdR	NC	45
+ENDDOMAINS
+ENDQUERY
+SESSION	51	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1077	Peptide	970	EcoPI
+DOMAINS
+51	Query_1077	Non-specific	237972	4	966	0	1006.87	PRK15483	PRK15483	-	45
+51	Query_1077	Non-specific	226115	9	970	0	718.495	COG3587	COG3587	-	45
+51	Query_1077	Non-specific	368155	90	256	0.00559108	38.421	pfam04851	ResIII	N	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	51	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1079	Peptide	970	EcoP15I
+DOMAINS
+51	Query_1079	Non-specific	237972	4	966	0	1047.32	PRK15483	PRK15483	-	45
+51	Query_1079	Non-specific	226115	9	970	0	768.186	COG3587	COG3587	-	45
+51	Query_1079	Specific	368155	61	256	5.0795e-14	70.7777	pfam04851	ResIII	-	391939
+51	Query_1079	Specific	214692	82	267	3.86784e-06	48.6422	smart00487	DEXDc	-	391939
+51	Query_1079	Non-specific	350684	82	256	5.42374e-06	46.9153	cd17926	DEXHc_RE	-	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	56	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1184	Peptide	898	GmeII
+DOMAINS
+56	Query_1184	Non-specific	350684	65	260	3.99703e-08	53.0785	cd17926	DEXHc_RE	-	391939
+56	Query_1184	Non-specific	368155	2	260	8.02985e-08	52.6734	pfam04851	ResIII	-	391939
+56	Query_1184	Non-specific	223989	1	420	1.19735e-06	51.6715	COG1061	SSL2	-	45
+56	Query_1184	Non-specific	226115	2	282	9.42632e-06	49.4037	COG3587	COG3587	C	45
+56	Query_1184	Non-specific	237972	225	259	0.00645172	40.0191	PRK15483	PRK15483	NC	45
+ENDDOMAINS
+ENDQUERY
+SESSION	71	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1531	Peptide	873	LlaFI
+DOMAINS
+71	Query_1531	Non-specific	225955	72	850	5.93177e-115	369.597	COG3421	COG3421	-	45
+71	Query_1531	Specific	368155	35	237	3.31907e-32	122.78	pfam04851	ResIII	-	391939
+71	Query_1531	Non-specific	350684	38	235	1.33605e-22	94.68	cd17926	DEXHc_RE	-	391939
+71	Query_1531	Specific	214692	38	253	2.76438e-13	69.443	smart00487	DEXDc	-	391939
+71	Query_1531	Non-specific	226581	2	116	3.39826e-05	47.435	COG4096	HsdR	C	45
+71	Query_1531	Non-specific	237972	28	293	0.00257776	41.5599	PRK15483	PRK15483	C	45
+ENDDOMAINS
+ENDQUERY
+SESSION	79	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1680	Peptide	809	MmyCI
+DOMAINS
+79	Query_1680	Non-specific	368155	1	210	2.69727e-11	62.3033	pfam04851	ResIII	-	391939
+79	Query_1680	Non-specific	223989	7	396	1.66979e-08	57.4495	COG1061	SSL2	-	45
+79	Query_1680	Specific	214692	2	214	1.47325e-06	49.4126	smart00487	DEXDc	-	391939
+79	Query_1680	Non-specific	350668	29	158	4.03357e-06	47.0129	cd00046	SF2-N	C	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1832	Peptide	979	NgoAX
+DOMAINS
+86	Query_1832	Specific	237972	2	972	0	1321.58	PRK15483	PRK15483	-	45
+86	Query_1832	Specific	226115	1	974	0	1173.8	COG3587	COG3587	-	45
+86	Query_1832	Non-specific	368155	84	255	0.00148509	40.347	pfam04851	ResIII	N	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	94	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2020	Peptide	879	PhaBI
+DOMAINS
+94	Query_2020	Non-specific	226115	1	863	1.76299e-174	530.903	COG3587	COG3587	-	45
+94	Query_2020	Non-specific	237972	1	875	9.75407e-82	283.465	PRK15483	PRK15483	-	45
+94	Query_2020	Specific	368155	68	235	5.0401e-13	67.6961	pfam04851	ResIII	-	391939
+94	Query_2020	Specific	214692	73	224	3.84234e-07	51.3386	smart00487	DEXDc	C	391939
+94	Query_2020	Non-specific	350186	464	530	2.25091e-05	44.4724	cd18799	SF2_C_EcoAI-like	N	365791
+ENDDOMAINS
+ENDQUERY
+SESSION	125	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2653	Peptide	991	SenAZII
+DOMAINS
+125	Query_2653	Specific	237972	3	989	0	1513.02	PRK15483	PRK15483	-	45
+125	Query_2653	Specific	226115	3	991	0	1205.39	COG3587	COG3587	-	45
+125	Query_2653	Specific	368155	6	231	8.3398e-22	93.1193	pfam04851	ResIII	-	391939
+125	Query_2653	Specific	214692	54	234	0.000235761	43.2494	smart00487	DEXDc	-	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	142	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3023	Peptide	984	StyLTI
+DOMAINS
+142	Query_3023	Specific	237972	3	944	0	1463.33	PRK15483	PRK15483	-	45
+142	Query_3023	Specific	226115	3	947	0	1161.86	COG3587	COG3587	-	45
+142	Query_3023	Specific	368155	6	231	1.35893e-22	95.4305	pfam04851	ResIII	-	391939
+142	Query_3023	Specific	214692	11	234	0.000190841	43.6346	smart00487	DEXDc	-	391939
+ENDDOMAINS
+ENDQUERY
+SESSION	148	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3146	Peptide	883	ValV86I
+DOMAINS
+148	Query_3146	Non-specific	368155	89	296	1.64326e-07	51.5178	pfam04851	ResIII	-	391939
+148	Query_3146	Non-specific	350684	91	295	2.1675e-06	48.0709	cd17926	DEXHc_RE	-	391939
+148	Query_3146	Non-specific	226115	376	470	0.00016321	45.5517	COG3587	COG3587	NC	45
+ENDDOMAINS
+ENDQUERY
+SESSION	150	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_3192	Peptide	1154	Vsp69I
+DOMAINS
+150	Query_3192	Non-specific	350791	163	294	0.00136821	40.769	cd18033	DEXDc_FANCM	C	391939
+ENDDOMAINS
+ENDQUERY

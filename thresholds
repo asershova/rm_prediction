@@ -1,0 +1,17 @@
+Orphan_M#M	0.75	50
+Type_IIG#RM	0.5	100
+Type_III#M	0.5	165
+Type_III#R	0.5	50
+Type_II#M	0.75	50
+Type_IIM#R	0.6	30
+Type_II#R	0.75	45
+Type_II#V	0	120
+Type_I#M	0.5	170
+Type_I#R	0.5	75
+Type_I#S	0.5	75
+Type_IV#R	0.4	95
+-#C	1	0
+Type_II#H	1	0
+Type_II#S	1	0
+Type_I#RM	1	0
+Homing#R	1	0

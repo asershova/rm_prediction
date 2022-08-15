@@ -1,0 +1,87 @@
+#Post-RPSBLAST Processing Utility
+#Input data file:	gold_standard.cdd.table.asn
+#Output data file:	gold_standard.cdd.table.asn.out.doms.std.hsdr
+#Annotation data at:	/home/anna/distrib/blast/ncbi-blast-2.10.1+-src/c++/ReleaseMT/bin/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+SESSION	14	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_302	Peptide	624	Nt.BhaIII
+DOMAINS
+14	Query_302	Specific	312855	108	567	0	553.311	pfam09491	RE_AlwI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	19	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_405	Peptide	684	Nt.BspD6I
+DOMAINS
+19	Query_405	Non-specific	312855	80	545	2.42373e-45	167.726	pfam09491	RE_AlwI	-	45
+19	Query_405	Non-specific	312855	623	682	9.61804e-09	57.9439	pfam09491	RE_AlwI	N	45
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_445	Peptide	604	Nt.BstNBI
+DOMAINS
+21	Query_445	Non-specific	312855	80	545	7.88655e-46	167.726	pfam09491	RE_AlwI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_447	Peptide	604	Nt.BstSEI
+DOMAINS
+21	Query_447	Non-specific	312855	80	545	7.88655e-46	167.726	pfam09491	RE_AlwI	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	36	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_766	Peptide	550	Nt.CviQII
+DOMAINS
+36	Query_766	Non-specific	373751	411	488	9.47364e-08	55.2181	pfam15324	TALPID3	N	45
+36	Query_766	Non-specific	275319	404	502	3.60455e-05	46.5501	TIGR04526	predic_Ig_block	C	45
+36	Query_766	Non-specific	183854	411	495	3.96642e-05	45.3941	PRK13042	PRK13042	C	45
+36	Query_766	Non-specific	223880	412	486	0.000197804	43.2357	COG0810	TonB	NC	45
+36	Query_766	Non-specific	380190	417	484	0.00211979	40.8289	NF033186	internalin_K	N	45
+ENDDOMAINS
+ENDQUERY
+SESSION	36	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_767	Peptide	550	Nt.CviQXI
+DOMAINS
+36	Query_767	Non-specific	373751	411	488	9.47364e-08	55.2181	pfam15324	TALPID3	N	45
+36	Query_767	Non-specific	275319	404	502	3.60455e-05	46.5501	TIGR04526	predic_Ig_block	C	45
+36	Query_767	Non-specific	183854	411	495	3.96642e-05	45.3941	PRK13042	PRK13042	C	45
+36	Query_767	Non-specific	223880	412	486	0.000197804	43.2357	COG0810	TonB	NC	45
+36	Query_767	Non-specific	380190	417	484	0.00211979	40.8289	NF033186	internalin_K	N	45
+ENDDOMAINS
+ENDQUERY
+SESSION	49	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1050	Peptide	156	V.EcoKDcm
+DOMAINS
+49	Query_1050	Specific	226250	1	152	3.32707e-91	261.303	COG3727	Vsr	-	382053
+49	Query_1050	Specific	211591	2	118	4.69852e-68	201.616	TIGR00632	vsr	-	382053
+49	Query_1050	Specific	238136	5	119	2.78694e-55	169.481	cd00221	Vsr	-	382053
+49	Query_1050	Specific	281799	2	75	6.88085e-43	136.491	pfam03852	Vsr	-	382053
+ENDDOMAINS
+ENDQUERY
+SESSION	81	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1734	Peptide	221	V.MthTI
+DOMAINS
+81	Query_1734	Non-specific	224115	12	219	1.8631e-60	192.559	COG1194	MutY	C	45
+81	Query_1734	Specific	214684	44	195	3.27023e-46	150.107	smart00478	ENDO3c	-	390075
+81	Query_1734	Non-specific	130156	24	217	4.74274e-44	148.327	TIGR01084	mutY	C	45
+81	Query_1734	Specific	238013	36	193	3.98481e-42	139.684	cd00056	ENDO3c	-	390075
+81	Query_1734	Non-specific	182805	24	216	7.08521e-26	102.481	PRK10880	PRK10880	C	45
+81	Query_1734	Specific	366271	40	156	1.90681e-24	93.8824	pfam00730	HhH-GPD	-	390075
+ENDDOMAINS
+ENDQUERY

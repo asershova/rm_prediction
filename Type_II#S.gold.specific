@@ -1,0 +1,59 @@
+#Post-RPSBLAST Processing Utility
+#Input data file:	gold_standard.cdd.table.asn
+#Output data file:	gold_standard.cdd.table.asn.out.doms.std.hsdr
+#Annotation data at:	/home/anna/distrib/blast/ncbi-blast-2.10.1+-src/c++/ReleaseMT/bin/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+SESSION	4	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_73	Peptide	227	S.AhdI
+DOMAINS
+4	Query_73	Specific	223804	93	217	3.09857e-10	58.9046	COG0732	HsdS	N	45
+ENDDOMAINS
+ENDQUERY
+SESSION	13	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_271	Peptide	341	S.BcgI
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	21	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_454	Peptide	392	S.BstXI
+DOMAINS
+21	Query_454	Specific	341162	6	192	1.98596e-95	282.759	cd17273	RMtype1_S_EcoJA69PI-TRD1-CR1_like	-	365779
+21	Query_454	Specific	341162	207	391	1.82733e-80	244.624	cd17273	RMtype1_S_EcoJA69PI-TRD1-CR1_like	-	365779
+21	Query_454	Specific	366631	6	182	1.36999e-35	128.242	pfam01420	Methylase_S	-	45
+21	Query_454	Specific	223804	6	391	7.23779e-34	129.781	COG0732	HsdS	-	45
+21	Query_454	Specific	223804	207	392	6.72152e-10	60.0602	COG0732	HsdS	C	45
+ENDDOMAINS
+ENDQUERY
+SESSION	61	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1316	Peptide	405	S.Hpy99XXII-mut1
+DOMAINS
+61	Query_1316	Specific	366631	212	378	1.40411e-26	104.36	pfam01420	Methylase_S	-	45
+ENDDOMAINS
+ENDQUERY
+SESSION	86	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_1833	Peptide	322	S.NgoAVIII
+DOMAINS
+ENDDOMAINS
+ENDQUERY
+SESSION	95	blastp	2.10.1+	/home/anna/seq_db/blastdb/cdd_profiles/Cdd	BLOSUM62	0.01
+QUERY	Query_2036	Peptide	467	S.Pin25611FIV
+DOMAINS
+ENDDOMAINS
+ENDQUERY
